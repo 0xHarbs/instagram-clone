@@ -1,0 +1,101 @@
+.imageUpload {
+	display:  flex;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	border: 1px solid lightgray;
+	background-color: #fff;
+	border-radius: 6px;
+	width:  400px;
+	font-family: ;
+}
+
+#file-input {
+	padding: 5px 0px 0px 30px;
+	display: none;
+}
+
+#image__output {
+	width: 85%;
+	margin: 10px 10px 10px 10px;
+	border-radius: 6px;
+}
+
+.imageUpload__textInput {
+	margin-top: 8px;
+}
+
+.input__title {
+	padding: 10px 0px;
+}
+
+.input__container {
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.image__input {
+	display: flex;
+	cursor: pointer;
+	align-items: center;
+	justify-content: center;
+	border-radius: 6px;
+	width: 30%;
+	padding: 6px 6px 6px 4px;
+	margin: 0px 0px 0px 30px;
+	font-size: 14px;
+}
+
+.icon {
+	color: #45BD62;
+}
+
+.image__input > p {
+	padding-bottom: 2px;
+	color: #65676B;
+}
+
+.image__input:hover {
+	background-color: #F0F2F5;
+}
+
+
+.input__container > textarea {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	min-height: 60px;
+	flex: 1;
+	padding: 15px;
+	font-size: 16px;
+	border: none;
+	outline: none;
+	overflow: auto;
+	resize: none;
+}
+
+.input__container > button {
+	margin-left: auto;
+	margin-right: auto;
+	margin: 10px 0px 10px 0px;
+	width: 85%;
+	border: 1px solid lightgray;
+	background-color: #0095F6;
+	color: #fff;
+	font-weight: bold;
+}
+
+.input__container > button:hover {
+	background-color: transparent;
+	color: #0095F6;
+	border: 1px solid #0095F6;
+}
+
+hr {
+	border: none;
+	height: 0.5px;
+	background-color: lightgray;
+}

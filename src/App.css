@@ -1,0 +1,29 @@
+* {
+  margin:  0;
+}
+
+.app {
+  background-color: #fafafa;
+}
+
+.app__header {
+  object-fit: contain;
+  padding: 5px 40px;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+}
+
+.app__headerImage {
+  max-width: 100px;
+  object-fit: contain;
+}
+
+.app__posts {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.app__postsRight {
+  margin-left: 20px;
+}
